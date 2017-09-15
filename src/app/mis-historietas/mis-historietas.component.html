@@ -1,0 +1,13 @@
+<div class="mis">
+  <p>Mis historietas</p>
+  <div class="otros">
+      <ul>
+        <li *ngFor="let historieta of post">
+          <p>{{historieta.id}}</p>
+          <p>{{historieta.person.first_name}}</p>
+          <p>{{historieta.text}}</p>
+          <p>{{historieta.publish}}</p>
+        </li>
+      </ul>
+  </div>
+</div>

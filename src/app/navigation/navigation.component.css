@@ -1,10 +1,29 @@
 ul li{
     display: inline-block;
-    margin-left: 10px;
     border: solid 1px;
-    background-color: #FF0000;
+    background-color: #E7A2EB;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-a{
+
+
+.fila{
+   margin-left: 50px; 
+}
+
+a {
     text-decoration: none;
     color: black;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.lista{
+    padding-bottom: 20px; 
 }

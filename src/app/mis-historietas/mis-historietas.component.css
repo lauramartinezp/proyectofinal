@@ -1,0 +1,13 @@
+.mis {
+    border: 1px solid black;
+    margin-top: 50px;
+}
+
+.otros {
+    height: 200px;
+    border: 1px solid black;
+    margin: 15px;
+    padding: 5px;
+    overflow-y: scroll;
+}
+
