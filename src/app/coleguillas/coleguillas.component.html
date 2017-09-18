@@ -1,3 +1,27 @@
-<p>
-  coleguillas works!
+<p *ngIf="!loaded">
+  <img src="../../assets/spinner.gif" alt="">
 </p>
+<div class="input-friends">
+  <input type="text" [(ngModel)]="mySearch">
+  <button><i class="fa fa-search" aria-hidden="true"></i></button>
+</div>
+<p class="title-posts">Mis coleguillas</p>
+<div class="container-friends" *ngIf="loaded">
+  <div *ngFor="let person of persons | search:'first_name':mySearch" class="subcontainer-relates" [class.selected]="person.selected"
+    (click)="selectPerson(person)">
+    <div class="cart-relate">
+      <button *ngIf="isFriend(person)" class="remove-relate" (click)="refuse(person)">X</button>
+      <div class="image-relate">
+        <img src="../../assets/Captura.PNG" alt="profile.png">
+      </div>
+      <div class="text-relate">
+        <span>{{person.first_name}} {{person.last_name}}</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="selected-person" *ngFor="let person of personsSelected">
+  <p>{{person.first_name}}</p>
+</div>
+

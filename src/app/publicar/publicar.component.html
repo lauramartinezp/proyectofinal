@@ -1,7 +1,9 @@
 <div class="public">
-  <p>Di algo</p>
-  <div class="escribir">
-    <input type="text" name="historieta" id="esc">
-  </div>
-  <button type="submit">Publicar Historieta</button>
+  <form (submit)="postPost()" [formGroup]="form">
+    <fieldset>
+      <legend>Di algo</legend>
+      <textarea name="post" id="" formControlName="post"></textarea>
+      <button type="submit" [disabled]="!form.valid">Publicar historieta</button>
+    </fieldset>
+  </form>
 </div>

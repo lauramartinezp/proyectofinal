@@ -1,3 +1,5 @@
-<p>
-  datos works!
-</p>
+<div class="container-posts">
+  <p><strong>Nombre y apellidos:</strong> {{person?.first_name}} {{person?.last_name}}</p>
+  <p><strong>Lugar:</strong> {{person?.city}} ({{person?.country}})</p>
+  <p><strong>Cumpleaños:</strong> {{ person?.birth | date:'d MMMM' }}</p>
+</div>

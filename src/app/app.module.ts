@@ -15,7 +15,12 @@ import { FooterComponent } from './footer/footer.component';
 import { MisHistorietasService } from './mis-historietas/mis-historietas.service';
 import { HttpModule } from '@angular/http';
 import { DatosComponent } from './datos/datos.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { PersonService } from './publicar/person.service';
+import { ProxcolegasComponent } from './proxcolegas/proxcolegas.component';
+import { RelateService } from './proxcolegas/relate.service';
 import { ColeguillasComponent } from './coleguillas/coleguillas.component';
+import { SearchPipe } from './searchpipe';
 const appRoutes: Routes = [
   { path: 'mis-historietas', component: HistorietasComponent },
   { path: 'mis-cosas', component: CosasComponent },
@@ -38,13 +43,17 @@ const appRoutes: Routes = [
     FooterComponent,
     DatosComponent,
     ColeguillasComponent,
+    ProxcolegasComponent,
+    SearchPipe,
   ],
   imports: [
     BrowserModule,
     HttpModule,
-    RouterModule.forRoot(appRoutes)
+    FormsModule,
+    RouterModule.forRoot(appRoutes),
+    ReactiveFormsModule
   ],
-  providers: [MisHistorietasService],
+  providers: [MisHistorietasService, HttpModule, FormsModule, PersonService, RelateService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

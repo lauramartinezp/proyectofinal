@@ -1,4 +1,3 @@
-
 export class Person {
     id: number;
     first_name: string;
@@ -7,4 +6,5 @@ export class Person {
     country: string;
     picture: string;
     birth: Date;
+    selected: boolean;
 }

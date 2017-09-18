@@ -11,12 +11,12 @@
     },
     {
       "id": 1,
-      "first_name": "Cristian",
-      "last_name": "Longoria",
-      "city": "Linares Alfonso",
-      "country": "Aruba",
-      "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-      "birth": "2016-11-22T12:45:10.827Z"
+      "first_name": "Arya",
+      "last_name": "Stark",
+      "city": "Invernalia",
+      "country": "Siete Reinos",
+      "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/madcampos/128.jpg",
+      "birth": "2017-07-02T16:04:52.186Z"
     },
     {
       "id": 2,
@@ -168,28 +168,40 @@
       },
       "text": "a dani no le funciona jejejeejejejej",
       "id": 8
+    },
+    {
+      "person": {
+        "id": 1,
+        "first_name": "Cristian",
+        "last_name": "Longoria",
+        "city": "Linares Alfonso",
+        "country": "Aruba",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
+        "birth": "2016-11-22T12:45:10.827Z"
+      },
+      "text": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "id": 9
+    },
+    {
+      "person": {
+        "id": 1,
+        "first_name": "Arya",
+        "last_name": "Stark",
+        "city": "Invernalia",
+        "country": "Siete Reinos",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/madcampos/128.jpg",
+        "birth": "2017-07-02T16:04:52.186Z"
+      },
+      "publish": "2017-09-18T16:45:09.665Z",
+      "text": "hola",
+      "id": 10
     }
   ],
   "opinions": [
     {
       "post": {
         "id": 0,
-        "person": [
-          {
-            "id": 0,
-            "first_name": "Lorena",
-            "last_name": "Verduzco",
-            "city": "Sergioshire",
-            "country": "Kenia",
-            "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/justme_timothyg/128.jpg",
-            "birth": "2017-07-15T16:06:50.357Z"
-          }
-        ],
-        "text": "Labore praesentium tempora. Quas sed quia aperiam in. Quasi qui quod dolore laboriosam odit quisquam voluptate qui.",
-        "publish": "2017-07-09T15:21:21.831Z"
-      },
-      "person": [
-        {
+        "person": {
           "id": 0,
           "first_name": "Lorena",
           "last_name": "Verduzco",
@@ -197,29 +209,25 @@
           "country": "Kenia",
           "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/justme_timothyg/128.jpg",
           "birth": "2017-07-15T16:06:50.357Z"
-        }
-      ],
+        },
+        "text": "Labore praesentium tempora. Quas sed quia aperiam in. Quasi qui quod dolore laboriosam odit quisquam voluptate qui.",
+        "publish": "2017-07-09T15:21:21.831Z"
+      },
+      "person": {
+        "id": 0,
+        "first_name": "Lorena",
+        "last_name": "Verduzco",
+        "city": "Sergioshire",
+        "country": "Kenia",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/justme_timothyg/128.jpg",
+        "birth": "2017-07-15T16:06:50.357Z"
+      },
       "opinion": 3
     },
     {
       "post": {
         "id": 0,
-        "person": [
-          {
-            "id": 1,
-            "first_name": "Cristian",
-            "last_name": "Longoria",
-            "city": "Linares Alfonso",
-            "country": "Aruba",
-            "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-            "birth": "2016-11-22T12:45:10.827Z"
-          }
-        ],
-        "text": "Labore praesentium tempora. Quas sed quia aperiam in. Quasi qui quod dolore laboriosam odit quisquam voluptate qui.",
-        "publish": "2017-07-09T15:21:21.831Z"
-      },
-      "person": [
-        {
+        "person": {
           "id": 1,
           "first_name": "Cristian",
           "last_name": "Longoria",
@@ -227,29 +235,25 @@
           "country": "Aruba",
           "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
           "birth": "2016-11-22T12:45:10.827Z"
-        }
-      ],
+        },
+        "text": "Labore praesentium tempora. Quas sed quia aperiam in. Quasi qui quod dolore laboriosam odit quisquam voluptate qui.",
+        "publish": "2017-07-09T15:21:21.831Z"
+      },
+      "person": {
+        "id": 1,
+        "first_name": "Cristian",
+        "last_name": "Longoria",
+        "city": "Linares Alfonso",
+        "country": "Aruba",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
+        "birth": "2016-11-22T12:45:10.827Z"
+      },
       "opinion": 2
     },
     {
       "post": {
         "id": 0,
-        "person": [
-          {
-            "id": 1,
-            "first_name": "Cristian",
-            "last_name": "Longoria",
-            "city": "Linares Alfonso",
-            "country": "Aruba",
-            "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-            "birth": "2016-11-22T12:45:10.827Z"
-          }
-        ],
-        "text": "Labore praesentium tempora. Quas sed quia aperiam in. Quasi qui quod dolore laboriosam odit quisquam voluptate qui.",
-        "publish": "2017-07-09T15:21:21.831Z"
-      },
-      "person": [
-        {
+        "person": {
           "id": 1,
           "first_name": "Cristian",
           "last_name": "Longoria",
@@ -257,60 +261,65 @@
           "country": "Aruba",
           "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
           "birth": "2016-11-22T12:45:10.827Z"
-        }
-      ],
+        },
+        "text": "Labore praesentium tempora. Quas sed quia aperiam in. Quasi qui quod dolore laboriosam odit quisquam voluptate qui.",
+        "publish": "2017-07-09T15:21:21.831Z"
+      },
+      "person": {
+        "id": 1,
+        "first_name": "Cristian",
+        "last_name": "Longoria",
+        "city": "Linares Alfonso",
+        "country": "Aruba",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
+        "birth": "2016-11-22T12:45:10.827Z"
+      },
       "opinion": 3
     }
   ],
   "relations": [
     {
-      "requester": [
-        {
-          "id": 0,
-          "first_name": "Lorena",
-          "last_name": "Verduzco",
-          "city": "Sergioshire",
-          "country": "Kenia",
-          "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/justme_timothyg/128.jpg",
-          "birth": "2017-07-15T16:06:50.357Z"
-        }
-      ],
-      "requested": [
-        {
-          "id": 1,
-          "first_name": "Cristian",
-          "last_name": "Longoria",
-          "city": "Linares Alfonso",
-          "country": "Aruba",
-          "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-          "birth": "2016-11-22T12:45:10.827Z"
-        }
-      ],
+      "id": 1,
+      "requester": {
+        "id": 0,
+        "first_name": "Lorena",
+        "last_name": "Verduzco",
+        "city": "Sergioshire",
+        "country": "Kenia",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/justme_timothyg/128.jpg",
+        "birth": "2017-07-15T16:06:50.357Z"
+      },
+      "requested": {
+        "id": 1,
+        "first_name": "Cristian",
+        "last_name": "Longoria",
+        "city": "Linares Alfonso",
+        "country": "Aruba",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
+        "birth": "2016-11-22T12:45:10.827Z"
+      },
       "accepted": false
     },
     {
-      "requester": [
-        {
-          "id": 0,
-          "first_name": "Lorena",
-          "last_name": "Verduzco",
-          "city": "Sergioshire",
-          "country": "Kenia",
-          "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/justme_timothyg/128.jpg",
-          "birth": "2017-07-15T16:06:50.357Z"
-        }
-      ],
-      "requested": [
-        {
-          "id": 1,
-          "first_name": "Cristian",
-          "last_name": "Longoria",
-          "city": "Linares Alfonso",
-          "country": "Aruba",
-          "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
-          "birth": "2016-11-22T12:45:10.827Z"
-        }
-      ],
+      "id": 2,
+      "requester": {
+        "id": 0,
+        "first_name": "Lorena",
+        "last_name": "Verduzco",
+        "city": "Sergioshire",
+        "country": "Kenia",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/justme_timothyg/128.jpg",
+        "birth": "2017-07-15T16:06:50.357Z"
+      },
+      "requested": {
+        "id": 2,
+        "first_name": "Cristian",
+        "last_name": "Longoria",
+        "city": "Linares Alfonso",
+        "country": "Aruba",
+        "picture": "https://s3.amazonaws.com/uifaces/faces/twitter/ajaxy_ru/128.jpg",
+        "birth": "2016-11-22T12:45:10.827Z"
+      },
       "accepted": true
     }
   ]

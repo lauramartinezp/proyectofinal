@@ -1,0 +1,12 @@
+.container-posts {
+    width: 99.5%;
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 3em;
+    height: 9em;
+    padding: 1em;
+}
+
+.container-posts p {
+    margin-bottom: .7em;
+}

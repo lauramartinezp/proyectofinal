@@ -14,7 +14,7 @@ export class MisHistorietasComponent implements OnInit {
   constructor(private misHistorietasService: MisHistorietasService) { }
 
   ngOnInit() {
-    this.misHistorietasService.getPost().subscribe(post => this.post = post);
+    this.misHistorietasService.getPosts().subscribe(post => this.post = post);
   }
 
 }

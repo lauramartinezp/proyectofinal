@@ -1,0 +1,23 @@
+<div class="container-friends">
+  <p class="title-posts">Mis coleguillas</p>
+  <div *ngFor="let relate of relatesRelater" class="subcontainer-relates">
+    <div class="cart-relate">
+      <div class="image-relate">
+        <img src="../../assets/Captura.PNG" alt="profile.png">
+      </div>
+      <div class="text-relate">
+        <span *ngIf="relate.requester.id == 1">{{relate.requested.first_name}} {{relate.requested.last_name}}
+          <p *ngIf="!relate.accepted" class="sended">Amistad Solicidata</p>
+        </span>
+        <span *ngIf="relate.requested.id == 1">{{relate.requester.first_name}} {{relate.requester.last_name}}
+          <p class="buttons">
+          <button *ngIf="!relate.accepted" class="accept" (click)="accept(relate)">Aceptar</button>
+          <button *ngIf="!relate.accepted" class="refuse" (click)="refuse(relate)">Rechazar</button>
+          </p>
+        </span>
+
+        <button *ngIf="relate.accepted" class="remove-relate" (click)="refuse(relate)">X</button>
+      </div>
+    </div>
+  </div>
+</div>
